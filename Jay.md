@@ -1,6 +1,6 @@
 # Gifts list for Jay
 <div class="accordion">
-<detail class="accordion-item">
+<details class="accordion-item">
   <summary role="button" class="accordion-button">Xbox</summary>
   <details class="accordion-item">
   <summary role="button" class="accordion button">Manette Xbox</summary>
