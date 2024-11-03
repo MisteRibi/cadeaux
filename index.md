@@ -1,2 +1,2 @@
 # Gifts lists ideas
-[Jay](/Jay)
+[Jay](./Jay)
