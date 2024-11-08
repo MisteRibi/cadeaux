@@ -3,8 +3,8 @@
 <script>
 const div = document.getElementById("list");
 const listURL = "./assets/jay.json";
-const list = new Request(listURL);
-const wishlist = await fetch(list);
+//const list = new Request(listURL);
+const wishlist = await fetch(listURL);
 const WL = await wishlist.json();
 if (div) div.innerHTML = WL
 </script>
