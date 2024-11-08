@@ -6,5 +6,5 @@ const listURL = "jeremy.libion.ca/Gifts/assets/jay.json";
 const list = new Request(listURL);
 const wishlist = await fetch(list);
 const WL = await wishlist.json();
-if (div) div.innerHTML = WL
+if (div) div.innerHTML = WL.stringify()
 </script>
