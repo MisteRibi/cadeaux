@@ -1,13 +1,10 @@
 # Gifts list for Jay
-<div class="accordion">
-<details class="accordion-item">
-  <summary role="button" class="accordion-button">Xbox</summary>
-  <details class="accordion-item">
-  <summary role="button" class="accordion button">Manette Xbox</summary>
-  79$
-![Image de la manette](https://bfasset.costco-static.com/U447IH35/as/8rt6j4qpfvz4r9r6wrhnqg/1867336-894__1?auto=webp&amp;format=jpg&width=600&height=600&fit=bounds&canvas=600,600)
-[Costco](https://www.costco.ca/xbox---manette-sans-fils-sky-cipher-%c3%a9dition-sp%c3%a9ciale.product.4000304282.html)
-
-</details>
-</details>
-</div>
+<div class="list"></div>
+<script>
+const div = document.getElementById("list");
+const listURL = "./assets/jay.json";
+const list = new Request(listURL);
+const wishlist = await fetch(list);
+const WL = await wishlist.json();
+if (div) div.innerHTML = WL
+</script>
