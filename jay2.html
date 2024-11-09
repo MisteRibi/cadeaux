@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/assets/css/pico.min.css">
+    <style>
+      .price::before {
+        content:'~';
+      }
+      .price::after {
+        content: '$';
+      }
+    </style>
+    <script src="./assets/js/list.js">
+  </head>
+  <body class="container">
+    <h1 id="gifts-list-for-jay">Gifts list for Jay</h1>
+    <div id="list" aria-busy="true" class="grid">
+    </div>
+    <script>
+    list('jay');
+    </script>
+  </body>
+</html>
