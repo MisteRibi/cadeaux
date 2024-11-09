@@ -19,13 +19,20 @@ function createList(list) {
     if (list.lengh == 0) noList();
     else list.forEach(gift => {
       let card = ['<article class="card">'];
+      // head
       card.push('<header>'+gift.name+'</header>');
+      // body
       if (gift.note) card.push('<p>'+gift.note+'</p>');
-      card.push('<img src="'+gift.picture+'" alt="Image de '+gift.name+'">');
-      card.push('<footer>');
-      if (gift.price) card.push('<kbd class="price">'+gift.price+'</kbd>')
-      else card.push('<span></span>');
-      card.push('<a href="'+gift.link[0]+'" target="_blank" rel="noopener noreferrer">'+gift.link[1]+'</a>');
+      if (gift.picture) card.push('<img src="'+gift.picture+'" alt="Image de '+gift.name+'">');
+      // foot
+      if (gift.price || gift.link) {
+        card.push('<footer>');
+        if (gift.price) card.push('<kbd class="price">'+gift.price+'</kbd>')
+        else card.push('<span></span>');
+        if (gift.link) card.push('<a href="'+gift.link[0]+'" target="_blank" rel="noopener noreferrer">'+gift.link[1]+'</a>');
+        card.push('</footer>');
+      };
+      card.push('</article>');
       div.innerHTML += card.join('');
     });
   };
