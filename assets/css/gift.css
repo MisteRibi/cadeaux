@@ -1,0 +1,14 @@
+img {
+  max-height: 600px;
+  border-radius: 8px;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+.price::before {
+  content:'~';
+}
+.price::after {
+  content: '$';
+}
