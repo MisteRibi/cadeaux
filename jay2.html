@@ -16,14 +16,14 @@
         content: '$';
       }
     </style>
-    <script src="./assets/js/list.js"></script>
   </head>
   <body class="container">
     <h1 id="gifts-list-for-jay">Gifts list for Jay</h1>
     <div id="list" aria-busy="true" class="grid">
     </div>
     <script>
-    list('jay');
+      import { list } from './assets/js/list.js';
+      list('jay');
     </script>
   </body>
 </html>
