@@ -1,5 +1,5 @@
 # Gifts list for Jay
-<div id="list">Loading...</div>
+<div id="list" aria-busy="true"></div>
 <script>
 async function list() {
   const listURL = "./assets/jay.json";
@@ -12,7 +12,10 @@ async function list() {
 function createList(list) {
   console.log('createList');
   const div = document.getElementById("list");
-  if (div) div.innerHTML = list;
+  if (div) {
+    div.setAttribute("aria-busy","false");
+    div.innerHTML = list;
+  };
 };
 
 list();
