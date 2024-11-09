@@ -3,8 +3,8 @@
     "name": "Manette Xbox",
     "price": "79",
     "link": [
-       "Costco",
-       "https://www.costco.ca/xbox---manette-sans-fils-sky-cipher-%c3%a9dition-sp%c3%a9ciale.product.4000304282.html"
+       "https://www.costco.ca/xbox---manette-sans-fils-sky-cipher-%c3%a9dition-sp%c3%a9ciale.product.4000304282.html",
+       "Costco.ca"
       ],
     "picture": "https://bfasset.costco-static.com/U447IH35/as/8rt6j4qpfvz4r9r6wrhnqg/1867336-894__1?auto=webp&format=jpg&width=600&height=600&fit=bounds&canvas=600,600"
   },
@@ -12,8 +12,8 @@
     "name": "Tirroir K-cup ou équivalent",
     "price": "21.72",
     "link": [
-      "Amazon.ca",
-      "https://a.co/d/e9Ca75h"
+      "https://a.co/d/e9Ca75h",
+      "Amazon.ca"
     ],
     "picture": "https://m.media-amazon.com/images/I/61DOSoNsJpL._AC_SX679_.jpg"
   }
