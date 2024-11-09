@@ -18,11 +18,11 @@ function createList(list) {
     div.setAttribute("aria-busy","false");
     if (list.lengh == 0) noList();
     else list.forEach(gift => {
-      let card = ['<article>'];
+      let card = ['<article class="card">'];
       card.push('<header>'+gift.name+'</header>');
       card.push('<img src="'+gift.picture+'" alt="Image de '+gift.name+'">');
       card.push('<footer>');
-      card.push('<span class="price">'+gift.price+'</span>');
+      card.push('<kbd class="price">'+gift.price+'</kbd>');
       card.push('<a href="'+gift.link[1]+'" target="_blank">'+gift.link[0]+'</a>');
       div.innerHTML += card.join('');
     });
