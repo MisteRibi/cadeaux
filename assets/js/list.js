@@ -23,4 +23,4 @@ function createList(list) {
   };
 };
 
-module.exports.list = list;
+module.exports = {list};
