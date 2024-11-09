@@ -1,3 +1,8 @@
+@media print {
+  .card {
+    break-inside: avoid;
+  }
+}
 .card {
   display: flex;
   flex-direction: column;
