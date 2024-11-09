@@ -2,7 +2,9 @@
   {
     "name": "Manette Xbox",
     "price": "79",
-    "links": "https://www.costco.ca/xbox---manette-sans-fils-sky-cipher-%c3%a9dition-sp%c3%a9ciale.product.4000304282.html",
+    "links": [
+       "https://www.costco.ca/xbox---manette-sans-fils-sky-cipher-%c3%a9dition-sp%c3%a9ciale.product.4000304282.html"
+      ],
     "picture": "https://bfasset.costco-static.com/U447IH35/as/8rt6j4qpfvz4r9r6wrhnqg/1867336-894__1?auto=webp&format=jpg&width=600&height=600&fit=bounds&canvas=600,600"
-  },
+  }
 ]
