@@ -19,9 +19,8 @@ function createList(list) {
     if (list.lengh == 0) noList();
     else list.forEach(gift => {
       let card = ['<article class="card">'];
-      card.push('<header>'+gift.name);
-      if (gift.smallName) card.push('<small>'+gift.smallName+'</small>');
-      card.push('</header>');
+      card.push('<header>'+gift.name+'</header>');
+      if (gift.note) card.push('<p>'+gift.note+'</p>');
       card.push('<img src="'+gift.picture+'" alt="Image de '+gift.name+'">');
       card.push('<footer>');
       if (gift.price) card.push('<kbd class="price">'+gift.price+'</kbd>')
