@@ -12,7 +12,7 @@ async function list() {
 function createList(list) {
   console.log('createList');
   const div = document.getElementById("list");
-  if (div) div.innerHTML = gifts;
+  if (div) div.innerHTML = list;
 };
 
 list();
