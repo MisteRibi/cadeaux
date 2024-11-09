@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr-CA">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/assets/css/pico.min.css">
+    <title>Liste d'idées cadeaux pour Joanna</title>
+    <style>
+      footer {
+        display: flex;
+        justify-content: space-between;
+      }
+      .price::before {
+        content:'~';
+      }
+      .price::after {
+        content: '$';
+      }
+    </style>
+  </head>
+  <body class="container">
+    <nav>
+      <ul>
+        <li><strong>Liste d'idées cadeaux pour Joanna</strong></li>
+      </ul>
+      <ul>
+        <li><a href="./">Accueil des listes d'idéess cadeaux</a></li>
+      </ul>
+    </nav>
+    <div id="list" aria-busy="true" class="grid">
+    </div>
+    <script type="module">
+      import list from './assets/js/list.js';
+      list('jo');
+    </script>
+  </body>
+</html>
