@@ -1,4 +1,4 @@
-export default async function list(name) {
+export default async function (name) {
   const listURL = "../"+name+".json";
   const list = new Request(listURL);
   const wishlist = await fetch(list);
