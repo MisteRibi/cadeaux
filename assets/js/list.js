@@ -4,9 +4,11 @@ export default function (name) {
 async function list(name) {
   const listURL = "./assets/"+name+".json";
   const list = new Request(listURL);
-  const wishlist = await fetch(list);
-  const WL = await wishlist.json();
-  createList(WL);
+  const response = await fetch(list);
+  if (response.ok) {
+    const wishlist = await response.json();
+    createList(wishlist);
+  } else noList();
 };
 
 function createList(list) {
@@ -14,7 +16,8 @@ function createList(list) {
   const div = document.getElementById("list");
   if (div) {
     div.setAttribute("aria-busy","false");
-    list.forEach(gift => {
+    if (list.lengh == 0) noList();
+    else list.forEach(gift => {
       let card = ['<article>'];
       card.push('<header>'+gift.name+'</header>');
       card.push('<img src="'+gift.picture+'" alt="Image de '+gift.name+'">');
@@ -24,4 +27,13 @@ function createList(list) {
       div.innerHTML += card.join('');
     });
   };
+};
+
+function noList() {
+  console.log('noList');
+  const div = document.getElementById("list");
+  if (div) {
+    div.setAttribute("aria-busy","false");
+    div.innerHTML = '<article>Liste vide</article>';
+  }
 };
