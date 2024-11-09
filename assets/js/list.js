@@ -1,5 +1,5 @@
 export default function (name) {
-  await list(name);
+  list(name);
 };
 async function list(name) {
   const listURL = "./assets/"+name+".json";
