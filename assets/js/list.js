@@ -2,7 +2,7 @@ export default function (name) {
   await list(name);
 };
 async function list(name) {
-  const listURL = "../"+name+".json";
+  const listURL = "./assets/"+name+".json";
   const list = new Request(listURL);
   const wishlist = await fetch(list);
   const WL = await wishlist.json();
