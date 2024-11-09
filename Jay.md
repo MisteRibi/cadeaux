@@ -1,5 +1,5 @@
 # Gifts list for Jay
-<div class="list">Loading...</div>
+<div id="list">Loading...</div>
 <script>
 async function list() {
   const listURL = "./assets/jay.json";
