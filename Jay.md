@@ -15,4 +15,5 @@ function createList(list) {
   if (div) div.innerHTML = gifts;
 };
 
+list();
 </script>
