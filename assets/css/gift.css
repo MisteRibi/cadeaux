@@ -1,3 +1,8 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 img {
   max-height: 600px;
   border-radius: 8px;
