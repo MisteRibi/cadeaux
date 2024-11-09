@@ -14,7 +14,15 @@ function createList(list) {
   const div = document.getElementById("list");
   if (div) {
     div.setAttribute("aria-busy","false");
-    div.innerHTML = list;
+    list.forEach(gift => {
+      let card = ['<article>'];
+      card.push('<header>'+gift.name+'</header>');
+      card.push('<img src="'+gift.picture+'" alt="Image de '+gift.name+'">');
+      card.push('<footer>');
+      card.push('<span class="price">'+gift.price+'</span>');
+      card.push('<a href="'+gift.links[0]+'" target="_blank">Lien</a>');
+      div.innerHTML += card.joind('');
+    });
   };
 };
 
