@@ -21,7 +21,7 @@ function createList(list) {
       card.push('<footer>');
       card.push('<span class="price">'+gift.price+'</span>');
       card.push('<a href="'+gift.links[0]+'" target="_blank">Lien</a>');
-      div.innerHTML += card.joind('');
+      div.innerHTML += card.join('');
     });
   };
 };
