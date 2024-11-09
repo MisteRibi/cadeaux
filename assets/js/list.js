@@ -23,7 +23,7 @@ function createList(list) {
       card.push('<img src="'+gift.picture+'" alt="Image de '+gift.name+'">');
       card.push('<footer>');
       card.push('<span class="price">'+gift.price+'</span>');
-      card.push('<a href="'+gift.links[0]+'" target="_blank">Lien</a>');
+      card.push('<a href="'+gift.link[1]+'" target="_blank">'+gift.link[0]+'</a>');
       div.innerHTML += card.join('');
     });
   };
