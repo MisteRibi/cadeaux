@@ -1,4 +1,4 @@
-export async function list(name) {
+async function list(name) {
   const listURL = "../"+name+".json";
   const list = new Request(listURL);
   const wishlist = await fetch(list);
@@ -22,3 +22,5 @@ function createList(list) {
     });
   };
 };
+
+module.exports.list = list;
