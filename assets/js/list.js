@@ -22,7 +22,8 @@ function createList(list) {
       card.push('<header>'+gift.name+'</header>');
       card.push('<img src="'+gift.picture+'" alt="Image de '+gift.name+'">');
       card.push('<footer>');
-      card.push('<kbd class="price">'+gift.price+'</kbd>');
+      if (gift.price) card.push('<kbd class="price">'+gift.price+'</kbd>')
+      else card.push('<span></span>');
       card.push('<a href="'+gift.link[0]+'" target="_blank" rel="noopener noreferrer">'+gift.link[1]+'</a>');
       div.innerHTML += card.join('');
     });
