@@ -1,6 +1,12 @@
 @media print {
   .card {
-    break-inside: avoid;
+    -webkit-column-break-inside: avoid;
+              page-break-inside: avoid;
+                   break-inside: avoid;
+    width: 400px;
+  }
+  nav {
+    display: none;
   }
 }
 .card {
