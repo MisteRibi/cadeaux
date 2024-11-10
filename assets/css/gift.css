@@ -11,21 +11,21 @@ footer {
   display: flex;
   justify-content: space-between;
 }
-.price::before {
-  content:'~';
-}
 .price::after {
   content: '$';
 }
 
 @media print {
+  body {
+    margin: 0;
+  }
+  nav {
+    display: none;
+  }
   .card {
     -webkit-column-break-inside: avoid;
               page-break-inside: avoid;
                    break-inside: avoid;
     width: 400px;
-  }
-  nav {
-    display: none;
   }
 }
