@@ -15,8 +15,8 @@ function createList(list) {
   console.log('createList');
   const div = document.getElementById("list");
   if (div) {
-    div.setAttribute("aria-busy","false");
     let cards = 0;
+    let total = [];
     if (list.lengh == 0) noList();
     else list.forEach(gift => {
       let card = [];
@@ -43,8 +43,10 @@ function createList(list) {
         card.push('</div>');
         cards = 0;
       };
-      div.innerHTML += card.join('');
+      total.push(card.join(''));
     });
+    div.setAttribute("aria-busy","false");
+    div.innerHTML += total.join('');
   };
 };
 
