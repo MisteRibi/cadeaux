@@ -16,9 +16,14 @@ function createList(list) {
   const div = document.getElementById("list");
   if (div) {
     div.setAttribute("aria-busy","false");
+    let cards = 0;
     if (list.lengh == 0) noList();
     else list.forEach(gift => {
-      let card = ['<article class="card">'];
+      let card = [];
+      if (cards == 0) {
+        card.push('<div class="grid">');
+      }
+      card.push('<article class="card">');
       // head
       card.push('<header>'+gift.name+'</header>');
       // body
@@ -33,6 +38,11 @@ function createList(list) {
         card.push('</footer>');
       };
       card.push('</article>');
+      cards += 1;
+      if (cards == 2) {
+        card.push('</div>');
+        cards = 0;
+      };
       div.innerHTML += card.join('');
     });
   };
