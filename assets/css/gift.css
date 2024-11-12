@@ -23,7 +23,13 @@ footer {
     margin: 0;
   }*/
   .container {
-    width: 2000px !important;
+    width: 1000px;
+  }
+  .grid {
+    grid-column-gap: var(--pico-grid-column-gap);
+    grid-row-gap: var(--pico-grid-row-gap);
+    display: grid;
+    grid-template-columns: 1fr;
   }
   nav {
     display: none;
