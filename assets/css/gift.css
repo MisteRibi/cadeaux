@@ -22,6 +22,9 @@ footer {
   /*body {
     margin: 0;
   }*/
+  .container {
+    width: 2000px !important;
+  }
   nav {
     display: none;
   }
