@@ -26,10 +26,10 @@ footer {
     width: 1000px;
   }
   .grid {
-    grid-column-gap: var(--pico-grid-column-gap);
-    grid-row-gap: var(--pico-grid-row-gap);
-    display: grid;
-    grid-template-columns: 1fr;
+    grid-column-gap: var(--pico-grid-column-gap) !important;
+    grid-row-gap: var(--pico-grid-row-gap) !important;
+    display: grid !important;
+    grid-template-columns: 1fr !important;
   }
   nav {
     display: none;
@@ -38,6 +38,6 @@ footer {
     -webkit-column-break-inside: avoid;
               page-break-inside: avoid;
                    break-inside: avoid;
-    width: 300px;
+    width: 300px !important;
   }
 }
