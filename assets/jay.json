@@ -17,5 +17,14 @@
       "Amazon.ca"
     ],
     "picture": "https://m.media-amazon.com/images/I/61DOSoNsJpL._AC_SX679_.jpg"
+  },
+  {
+    "name": "Vans Old Skool",
+    "note": "Taille 11.5-12",
+    "price": "90",
+    "link": [
+      "https://www.vans.ca/fr-ca/chaussures-c00081/old-skool-canvas-shoe-pvn000d3hbka",
+      "Vans.ca"
+    ]
   }
 ]
