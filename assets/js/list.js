@@ -14,8 +14,9 @@ async function list(name) {
 function createList(list) {
   console.log('createList');
   const div = document.getElementById("list");
+  let col = 3;
+  let cards = 0;
   if (div) {
-    let cards = 0;
     let total = [];
     if (list.lengh == 0) noList();
     else list.forEach(gift => {
@@ -39,12 +40,15 @@ function createList(list) {
       };
       card.push('</article>');
       cards += 1;
-      if (cards == 3) {
+      if (cards == col) {
         card.push('</div>');
         cards = 0;
       };
       total.push(card.join(''));
     });
+    while (cards != 0 && cards != col) {
+      total.push('<div></div>');
+    };
     div.setAttribute("aria-busy","false");
     div.innerHTML += total.join('');
   };
