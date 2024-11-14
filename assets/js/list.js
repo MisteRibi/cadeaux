@@ -39,7 +39,7 @@ function createList(list) {
       };
       card.push('</article>');
       cards += 1;
-      if (cards == 2) {
+      if (cards == 3) {
         card.push('</div>');
         cards = 0;
       };
