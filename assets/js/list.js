@@ -46,9 +46,11 @@ function createList(list) {
       };
       total.push(card.join(''));
     });
-    while (cards != 0 && cards != col) {
-      total.push('<div></div>');
-      cards++;
+    if (cards != 0 || cards != col) {
+      while (cards != col) {
+        total.push('<div></div>');
+        cards++;
+      };
     };
     div.setAttribute("aria-busy","false");
     div.innerHTML += total.join('');
