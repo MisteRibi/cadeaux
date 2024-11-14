@@ -48,6 +48,7 @@ function createList(list) {
     });
     while (cards != 0 && cards != col) {
       total.push('<div></div>');
+      cards++;
     };
     div.setAttribute("aria-busy","false");
     div.innerHTML += total.join('');
