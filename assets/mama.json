@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Cadre photo numérique",
+    "price": "150,59",
+    "note": "Ou équivalent.",
+    "link": [
+      "https://www.bestbuy.ca/fr-ca/produit/17034322",
+      "Bestbuy.ca"
+    ],
+    "picture": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/170/17034/17034322.jpg"
+  },
+  {
+    "name": "Bracelet milanais 46 mm or",
+    "price": "129",
+    "note": "Attention à la taille de poignée. (130-180mm ou 150-200mm)",
+    "link": [
+      "https://www.apple.com/xf/shop/product/MXMR3AM/A/bracelet-milanais-46-mm-or-m-g",
+      "Apple.ca"
+    ],
+    "picture": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MC7K4ref?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1724186588675"
+  }
+]
