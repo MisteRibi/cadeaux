@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr-CA">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/assets/css/pico.min.css">
+    <link rel="stylesheet" href="./assets/css/gift.css">
+    <title>Liste d'idées cadeaux pour Mama</title>
+  </head>
+  <body class="container">
+    <nav>
+      <ul>
+        <li><strong>Liste d'idées cadeaux pour Mama</strong></li>
+      </ul>
+      <ul>
+        <li><a href="./">Accueil des listes d'idées cadeaux</a></li>
+      </ul>
+    </nav>
+    <div id="list" aria-busy="true">
+    </div>
+    <script type="module">
+      import list from './assets/js/list.js';
+      list('mama');
+    </script>
+  </body>
+</html>
