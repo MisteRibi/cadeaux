@@ -27,5 +27,14 @@
       "Vans.ca"
     ],
     "picture": "https://images.vans.com/is/image/Vans/VN000D3H_BKA_ALT2?wid=800&hei=1004&fmt=jpeg&qlt=50&resMode=sharp2&op_usm=0.9,1.5,8,0"
+  },
+  {
+    "name": "The Nature of Code",
+    "price": "39.99USD",
+    "link": [
+      "https://store.natureofcode.com/products/the-nature-of-code?variant=42911305170998&country=US&currency=USD&utm_campaign=sag_organic&srsltid=AfmBOoqcx614QHJ5GKK-nDGHrRuQ-icsrdapiKvP8SFRtl2rSACy59ixwjw&utm_content=YT3-cizzVX1x889HhjY7MA3867NobSTRw2fHo4MCcgD0LyZ6-OsHRpR6oUfqRkP52mRXxBVfoEOJNEtXXqAzhU1c8g&utm_term=UCvjgXvBlbQiydffZU7m1_aw&utm_medium=product_shelf&utm_source=youtube&nohelpkit=1",
+      "store.natureofcode.com"
+    ],
+    "picture": "https://store.natureofcode.com/cdn/shop/files/cover-with-bookmarks-small.jpg?v=1724426080&width=1946"
   }
 ]
