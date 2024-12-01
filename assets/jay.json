@@ -36,5 +36,15 @@
       "store.natureofcode.com"
     ],
     "picture": "https://store.natureofcode.com/cdn/shop/files/cover-with-bookmarks-small.jpg?v=1724426080&width=1946"
+  },
+  {
+    "name": "Beats Flex",
+    "note": "Noir seulement",
+    "price": "89.95",
+    "link": [
+      "https://www.apple.com/xf/shop/product/MYMC2LL/A/beats-flex-écouteurs-sans-fil-pour-usage-prolongé-noir-beats?fnode=a8c0341d748fe60c92aec0418e7baefd8fb95063cdb3a27f74cf627b0b59184b2f459f0815e5db6fa50b88df33b17adf39ef281b0f6ee490b6bffc5ad64fe7c09747da2bb77d001bec13704c9dd5581159bffe83e524876394268da32ec210e6be86c6b6cd3f1c93cf97938b2d4a0be1",
+      "Apple.com"
+    ],
+    "picture": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MYMC2?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1601053171000"
   }
 ]
