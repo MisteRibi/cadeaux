@@ -133,5 +133,23 @@
       "TheWoobles.com"
     ],
     "picture": "https://thewoobles.com/cdn/shop/files/83RVB-Bundle-BP12-RET_1_1024x1024@2x.jpg"
+  },
+  {
+    "name": "Lightlark (The Lightlark Saga Book 1)",
+    "price": "16.99",
+    "link": [
+      "https://www.indigo.ca/en-ca/lightlark-the-lightlark-saga-book-1/9781419760877.html",
+      "Indigo.ca"
+    ],
+    "picture": "https://dynamic.indigoimages.ca/v1/books/books/1419760874/1.jpg?width=810&maxHeight=810&quality=85"
+  },
+  {
+    "name": "Emily Wilde's Encyclopaedia of Faeries",
+    "price": "24.95",
+    "link": [
+      "https://www.indigo.ca/en-ca/emily-wildes-encyclopaedia-of-faeries/9780593500156.html",
+      "Indigo.ca"
+    ],
+    "picture": "https://dynamic.indigoimages.ca/v1/books/books/0593500156/1.jpg?width=810&maxHeight=810&quality=85"
   }
 ]
