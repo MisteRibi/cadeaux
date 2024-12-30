@@ -1,23 +1,5 @@
 [
   {
-    "name": "Lego Retro Camera",
-    "price": "24.99",
-    "link": [
-      "https://www.lego.com/en-ca/product/retro-camera-31147",
-      "Lego.ca"
-    ],
-    "picture": "https://www.lego.com/cdn/cs/set/assets/blt5b4148cad80e42ea/31147.png?format=webply&fit=bounds&quality=75&width=640&height=640&dpr=1"
-  },
-  {
-    "name": "Lego Family Tree",
-    "price": "99.99",
-    "link": [
-      "https://www.lego.com/en-ca/product/family-tree-21346",
-      "Lego.ca"
-    ],
-    "picture": "https://www.lego.com/cdn/cs/set/assets/bltd5e6af3715a3024b/21346.png?format=webply&fit=bounds&quality=75&width=640&height=640&dpr=1"
-  },
-  {
     "name": "Lego NASA Artemis Space Launch System",
     "price": "339.99",
     "link": [
@@ -36,24 +18,6 @@
     "picture": "https://www.lego.com/cdn/cs/set/assets/blta0d2ef903df1c30c/43230.png?format=webply&fit=bounds&quality=75&width=640&height=640&dpr=1"
   },
   {
-    "name": "The Songbird & the Heart of Stone: The Shadowborn Duet, Book One",
-    "price": "39.99",
-    "link": [
-      "https://www.indigo.ca/en-ca/the-songbird-the-heart-of-stone-the-shadowborn-duet-book-one/9781250367785.html?searchType=products&searchTerm=carissa",
-      "Indigo.ca"
-    ],
-    "picture": "https://dynamic.indigoimages.ca/v1/books/books/1250367786/1.jpg?width=810&maxHeight=810&quality=85"
-  },
-  {
-    "name": "Under The Whispering Door",
-    "price": "24.99",
-    "link": [
-      "https://www.indigo.ca/en-ca/under-the-whispering-door/9781250217394.html",
-      "Indigo.ca"
-    ],
-    "picture": "https://dynamic.indigoimages.ca/v1/books/books/1250217393/1.jpg?width=810&maxHeight=810&quality=85"
-  },
-  {
     "name": "Daughter of No Worlds",
     "price": "42.95",
     "link": [
@@ -61,15 +25,6 @@
       "Indigo.ca"
     ],
     "picture": "https://dynamic.indigoimages.ca/v1/books/books/0998461946/1.jpg?width=810&maxHeight=810&quality=85"
-  },
-  {
-    "name": "Body Check: A Spicy Hockey Rom-Com",
-    "price": "21.99",
-    "link": [
-      "https://www.indigo.ca/en-ca/body-check-a-spicy-hockey-rom-com/9781335425539.html",
-      "Indigo.ca"
-    ],
-    "picture": "https://dynamic.indigoimages.ca/v1/books/books/1335425535/1.jpg?width=810&maxHeight=810&quality=85"
   },
   {
     "name": "Always Only You",
