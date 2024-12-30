@@ -1,27 +1,3 @@
 [
-  {
-    "name": "Pantalon de pyjama style jogging en flanelle pour homme",
-    "price": "34.99",
-    "note": "Ou équivalant.",
-    "picture": "https://oldnavy.gapcanada.ca/webcontent/0056/978/468/cn56978468.jpg"
-  },
-  {
-    "name": "Valise de cabine souple 22 po Expedition",
-    "price": "189.99",
-    "note": "Ou équivalent.",
-    "link": [
-      "https://www.shopbentley.com/fr/products/valise-de-cabine-souple-22-5-po-tracker-expedition?variant=43143924416670",
-      "Shopbentley.com"
-    ],
-    "picture": "https://www.shopbentley.com/cdn/shop/files/1026006004_f.jpg?v=1708383094&width=1000"
-  },
-  {
-    "name": "Le peignoir velours moiré",
-    "note": "Ou équivalent.",
-    "link": [
-      "https://www.simons.ca/fr/sous-vetements-homme/vetements-de-nuit-et-detente/robes-de-chambre/le-peignoir-velours-moire--13638-19301",
-      "Simons.ca"
-    ],
-    "picture": "https://imagescdn.simons.ca/images/13638/19301/61/A1_2.jpg?__=38"
-  }
+  
 ]
