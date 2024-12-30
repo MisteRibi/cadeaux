@@ -1,24 +1,5 @@
 [
   {
-    "name": "Manette Xbox Sky Cipher (Couleur Bleu seulement)",
-    "price": "79",
-    "link": [
-       "https://www.costco.ca/xbox---manette-sans-fils-sky-cipher-%c3%a9dition-sp%c3%a9ciale.product.4000304282.html",
-       "Costco.ca"
-      ],
-    "picture": "https://bfasset.costco-static.com/U447IH35/as/8rt6j4qpfvz4r9r6wrhnqg/1867336-894__1?auto=webp&format=jpg&width=600&height=600&fit=bounds&canvas=600,600"
-  },
-  {
-    "name": "Tirroir K-cup",
-    "note": "Ou un équivalent tant que c'est pour les K-cup (pas les Nespresso!).",
-    "price": "21.72",
-    "link": [
-      "https://a.co/d/e9Ca75h",
-      "Amazon.ca"
-    ],
-    "picture": "https://m.media-amazon.com/images/I/61DOSoNsJpL._AC_SX679_.jpg"
-  },
-  {
     "name": "Vans Old Skool",
     "note": "Taille 11.5-12",
     "price": "90",
@@ -27,24 +8,5 @@
       "Vans.ca"
     ],
     "picture": "https://images.vans.com/is/image/Vans/VN000D3H_BKA_ALT2?wid=800&hei=1004&fmt=jpeg&qlt=50&resMode=sharp2&op_usm=0.9,1.5,8,0"
-  },
-  {
-    "name": "The Nature of Code",
-    "price": "39.99USD",
-    "link": [
-      "https://store.natureofcode.com/products/the-nature-of-code?variant=42911305170998&country=US&currency=USD&utm_campaign=sag_organic&srsltid=AfmBOoqcx614QHJ5GKK-nDGHrRuQ-icsrdapiKvP8SFRtl2rSACy59ixwjw&utm_content=YT3-cizzVX1x889HhjY7MA3867NobSTRw2fHo4MCcgD0LyZ6-OsHRpR6oUfqRkP52mRXxBVfoEOJNEtXXqAzhU1c8g&utm_term=UCvjgXvBlbQiydffZU7m1_aw&utm_medium=product_shelf&utm_source=youtube&nohelpkit=1",
-      "store.natureofcode.com"
-    ],
-    "picture": "https://store.natureofcode.com/cdn/shop/files/cover-with-bookmarks-small.jpg?v=1724426080&width=1946"
-  },
-  {
-    "name": "Beats Flex",
-    "note": "Noir seulement",
-    "price": "89.95",
-    "link": [
-      "https://www.apple.com/xf/shop/product/MYMC2LL/A/beats-flex-écouteurs-sans-fil-pour-usage-prolongé-noir-beats?fnode=a8c0341d748fe60c92aec0418e7baefd8fb95063cdb3a27f74cf627b0b59184b2f459f0815e5db6fa50b88df33b17adf39ef281b0f6ee490b6bffc5ad64fe7c09747da2bb77d001bec13704c9dd5581159bffe83e524876394268da32ec210e6be86c6b6cd3f1c93cf97938b2d4a0be1",
-      "Apple.com"
-    ],
-    "picture": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MYMC2?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1601053171000"
   }
 ]
