@@ -1,5 +1,42 @@
 [
   {
+    "name": "Grand Theft Auto: The Trilogy - The Definitive Edition (Xbox Series X)",
+    "note": "40$ de rabais chez BestBuy jusqu'au 27 février 2025."
+    "price": "79,99",
+    "link": [
+      "https://www.bestbuy.ca/fr-ca/produit/15781553",
+      "BestBuy.ca"
+    ],
+    "picture": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/157/15781/15781553.jpg"
+  },
+  {
+    "name": "Life is Strange: Double Exposure (Xbox Series X)",
+    "price": "59,95",
+    "link": [
+      "https://www.bestbuy.ca/fr-ca/produit/17976042",
+      "BestBuy.ca"
+    ],
+    "picture": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/179/17976/17976042.jpg"
+  },
+  {
+    "name": "Outcast: A New Beginning (Xbox Series X)",
+    "price": "56,98",
+    "link": [
+      "https://www.bestbuy.ca/fr-ca/produit/15759084",
+      "BestBuy.ca"
+    ],
+    "picture": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/157/15759/15759084.jpg"
+  },
+  {
+    "name": "Split Fiction (Xbox Series X)",
+    "price": "64,99",
+    "link": [
+      "https://www.bestbuy.ca/fr-ca/produit/18913003",
+      "BestBuy.ca"
+    ],
+    "picture": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/189/18913/18913003.jpg"
+  },
+  {
     "name": "Vans Old Skool",
     "note": "Taille 11.5-12",
     "price": "90",
