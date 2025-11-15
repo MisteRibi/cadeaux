@@ -1,61 +1,7 @@
 [
   {
-    "name": "Lego NASA Artemis Space Launch System",
-    "price": "339.99",
-    "link": [
-      "https://www.lego.com/en-ca/product/nasa-artemis-space-launch-system-10341",
-      "Lego.ca"
-    ],
-    "picture": "https://www.lego.com/cdn/cs/set/assets/bltd01c9a5d39a5b3bc/10341.png?format=webply&fit=bounds&quality=75&width=640&height=640&dpr=1"
-  },
-  {
-    "name": "Lego Walt Disney Tribute Camera",
-    "price": "129.99",
-    "link": [
-      "https://www.lego.com/en-ca/product/walt-disney-tribute-camera-43230",
-      "Lego.ca"
-    ],
-    "picture": "https://www.lego.com/cdn/cs/set/assets/blta0d2ef903df1c30c/43230.png?format=webply&fit=bounds&quality=75&width=640&height=640&dpr=1"
-  },
-  {
-    "name": "Daughter of No Worlds",
-    "price": "42.95",
-    "link": [
-      "https://www.indigo.ca/en-ca/daughter-of-no-worlds/9780998461946.html",
-      "Indigo.ca"
-    ],
-    "picture": "https://dynamic.indigoimages.ca/v1/books/books/0998461946/1.jpg?width=810&maxHeight=810&quality=85"
-  },
-  {
-    "name": "Always Only You",
-    "price": "23",
-    "link": [
-      "https://www.indigo.ca/en-ca/always-only-you/9780593642375.html",
-      "Indigo.ca"
-    ],
-    "picture": "https://dynamic.indigoimages.ca/v1/books/books/0593642376/1.jpg?width=810&maxHeight=810&quality=85"
-  },
-  {
-    "name": "Ever After Always",
-    "price": "23",
-    "link": [
-      "https://www.indigo.ca/en-ca/ever-after-always/9780593642399.html",
-      "Indigo.ca"
-    ],
-    "picture": "https://dynamic.indigoimages.ca/v1/books/books/0593642392/1.jpg?width=810&maxHeight=810&quality=85"
-  },
-  {
-    "name": "Insert D'étagère Rolife Book Nook - Librairie TGB07",
-    "price": "62.99",
-    "link": [
-      "https://www.rolifeonline.com/fr-ca/products/rolife-bookstore-book-nook-tgb07",
-      "Rolifeonline.com"
-    ],
-    "picture": "https://img-va.myshopline.com/image/store/1649394707320/1-7_900x.jpeg?w=800&h=800"
-  },
-  {
     "name": "Emilio the Turtle Crochet Kit",
-    "price": "30USD",
+    "price": "30USD/42CAD",
     "link": [
       "https://thewoobles.com/products/turtle-crochet-kit",
       "TheWoobles.com"
@@ -63,26 +9,8 @@
     "picture": "https://thewoobles.com/cdn/shop/files/11TU-FW-PDP-Blue-WEB_1_1024x1024@2x.jpg"
   },
   {
-    "name": "Tiny Hedwig™ Accessory Kit",
-    "price": "7USD",
-    "link": [
-      "https://thewoobles.com/products/hedwigac-kit",
-      "TheWoobles.com"
-    ],
-    "picture": "https://thewoobles.com/cdn/shop/files/93HDW-Hedwig-FW-RWHue-RET_2_24d61449-c8c8-4fff-bd7f-2b32684b689f_1024x1024@2x.jpg"
-  },
-  {
-    "name": "Tiny Fawkes™ Accessory Kit",
-    "price": "7USD",
-    "link": [
-      "https://thewoobles.com/products/fawkesac-kit",
-      "TheWoobles.com"
-    ],
-    "picture": "https://thewoobles.com/cdn/shop/files/93FKS-Fawkes-FW-VT1-RET_2_ad49e641-21ee-4fdd-b98f-addcdc1a3638_1024x1024@2x.jpg"
-  },
-  {
     "name": "Ravenclaw™ Raven and Scarf Bundle",
-    "price": "47USD",
+    "price": "47USD/67CAD",
     "link": [
       "https://thewoobles.com/products/ravenclawac-raven-and-scarf-bundle",
       "TheWoobles.com"
@@ -90,13 +18,22 @@
     "picture": "https://thewoobles.com/cdn/shop/files/83RVB-Bundle-BP12-RET_1_1024x1024@2x.jpg"
   },
   {
-    "name": "Lightlark (The Lightlark Saga Book 1)",
-    "price": "16.99",
-    "link": [
-      "https://www.indigo.ca/en-ca/lightlark-the-lightlark-saga-book-1/9781419760877.html",
-      "Indigo.ca"
+    "name": "Noel the Snow Wooble Crochet Kit",
+    "price": "30USD/42CAD",
+    "link" [
+      "https://thewoobles.com/en-ca/collections/all-beginner-crochet-kits/products/noel-the-snow-wooble-crochet-kit",
+      "TheWoobles.com"
     ],
-    "picture": "https://dynamic.indigoimages.ca/v1/books/books/1419760874/1.jpg?width=810&maxHeight=810&quality=85"
+    "picture": "https://thewoobles.com/cdn/shop/files/11SN-NoelTheSnowWooble-FW-CT4-WEB_1024x1024@2x.jpg"
+  },
+  {
+    "name": "L’évolution des STEM",
+    "price": "99.99",
+    "link": [
+      "https://www.lego.com/fr-ca/product/the-evolution-of-stem-21355",
+      "Lego.com"
+    ],
+    "picture": "https://www.lego.com/cdn/cs/set/assets/blt92fd5b9824f9941e/21355_boxprod_v39.png?format=webply&fit=bounds&quality=60&width=800&height=800&dpr=2"
   },
   {
     "name": "Emily Wilde's Encyclopaedia of Faeries",
@@ -106,5 +43,50 @@
       "Indigo.ca"
     ],
     "picture": "https://dynamic.indigoimages.ca/v1/books/books/0593500156/1.jpg?width=810&maxHeight=810&quality=85"
-  }
+  },
+  {
+    "name": "Iron & Embers: An epic fantasy romance",
+    "price": "24.99",
+    "link": [
+      "https://www.indigo.ca/en-ca/iron-embers-an-epic-fantasy-romance/9781922903235.html",
+      "Indigo.ca"
+    ],
+    "picture": "https://m.media-amazon.com/images/I/91AKnf-QRBL._SY522_.jpg"
+  },
+  {
+    "name": "Thorns & Fire: An epic fantasy romance",
+    "price": "24.99",
+    "link": [
+      "https://www.indigo.ca/en-ca/thorns-fire-an-epic-fantasy-romance/9781922903266.html",
+      "Indigo.ca"
+    ],
+    "picture": "https://dynamic.indigoimages.ca/v1/books/books/1922903264/1.jpg?width=810&maxHeight=810&quality=85"
+  },
+  {
+    "name": "Silver & Smoke: An epic fantasy romance",
+    "price": "24.99",
+    "link": [
+      "https://www.indigo.ca/en-ca/silver-smoke-an-epic-fantasy-romance/9781922903297.html",
+      "Indigo.ca"
+    ],
+    "picture": "https://dynamic.indigoimages.ca/v1/books/books/1922903299/1.jpg?width=810&maxHeight=810&quality=85"
+  },
+  {
+    "name": "Problematic Summer Romance",
+    "price": "27.99",
+    "link": [
+      "https://www.indigo.ca/en-ca/problematic-summer-romance/9798217187430.html",
+      "Indigo.ca"
+    ],
+    "picture": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1745430233i/228691356.jpg"
+  },
+  {
+    "name": "Beach Read",
+    "price": "22.00",
+    "link": [
+      "https://www.indigo.ca/en-ca/beach-read/9781984806734.html",
+      "Indigo.ca"
+    ],
+    "picture": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1589881197i/52867387.jpg"
+  },
 ]
