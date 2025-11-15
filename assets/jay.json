@@ -1,8 +1,7 @@
 [
   {
     "name": "Grand Theft Auto: The Trilogy - The Definitive Edition (Xbox Series X)",
-    "note": "40$ de rabais chez BestBuy jusqu'au 27 février 2025.",
-    "price": "79,99",
+    "price": "39,95",
     "link": [
       "https://www.bestbuy.ca/fr-ca/produit/15781553",
       "BestBuy.ca"
@@ -11,39 +10,11 @@
   },
   {
     "name": "Life is Strange: Double Exposure (Xbox Series X)",
-    "price": "59,95",
+    "price": "39,97",
     "link": [
       "https://www.bestbuy.ca/fr-ca/produit/17976042",
       "BestBuy.ca"
     ],
     "picture": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/179/17976/17976042.jpg"
-  },
-  {
-    "name": "Outcast: A New Beginning (Xbox Series X)",
-    "price": "56,98",
-    "link": [
-      "https://www.bestbuy.ca/fr-ca/produit/15759084",
-      "BestBuy.ca"
-    ],
-    "picture": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/157/15759/15759084.jpg"
-  },
-  {
-    "name": "Split Fiction (Xbox Series X)",
-    "price": "64,99",
-    "link": [
-      "https://www.bestbuy.ca/fr-ca/produit/18913003",
-      "BestBuy.ca"
-    ],
-    "picture": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/189/18913/18913003.jpg"
-  },
-  {
-    "name": "Vans Old Skool",
-    "note": "Taille 11.5-12",
-    "price": "90",
-    "link": [
-      "https://www.vans.ca/fr-ca/chaussures-c00081/old-skool-canvas-shoe-pvn000d3hbka",
-      "Vans.ca"
-    ],
-    "picture": "https://images.vans.com/is/image/Vans/VN000D3H_BKA_ALT2?wid=800&hei=1004&fmt=jpeg&qlt=50&resMode=sharp2&op_usm=0.9,1.5,8,0"
   }
 ]
