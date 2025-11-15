@@ -16,5 +16,14 @@
       "BestBuy.ca"
     ],
     "picture": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/179/17976/17976042.jpg"
+  },
+  {
+    "name": "The Silo Series Boxed Set: Wool, Shift, Dust, and Silo Stories",
+    "price": "75",
+    "link": [
+      "https://www.indigo.ca/en-ca/the-silo-series-boxed-set-wool-shift-dust-and-silo-stories/9780358447825.html",
+      "Indigo.ca"
+    ],
+    "picture": "https://dynamic.indigoimages.ca/v1/books/books/0358447828/1.jpg?width=810&maxHeight=810&quality=85"
   }
 ]
