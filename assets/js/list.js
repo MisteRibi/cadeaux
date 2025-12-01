@@ -18,42 +18,46 @@ function createList(list) {
   let cards = 0;
   if (div) {
     let total = [];
-    if (list.lengh == 0) noList();
-    else list.forEach(gift => {
-      let card = [];
-      if (cards == 0) {
-        card.push('<div class="grid">');
-      }
-      card.push('<article class="card">');
-      // head
-      card.push('<header>'+gift.name+'</header>');
-      // body
-      if (gift.note) card.push('<p>'+gift.note+'</p>');
-      if (gift.picture) card.push('<img src="'+gift.picture+'" alt="Image de '+gift.name+'">');
-      // foot
-      if (gift.price || gift.link) {
-        card.push('<footer>');
-        if (gift.price) card.push('<kbd class="price">'+gift.price+'</kbd>')
-        else card.push('<span></span>');
-        if (gift.link) card.push('<a href="'+gift.link[0]+'" target="_blank" rel="noopener noreferrer">'+gift.link[1]+'</a>');
-        card.push('</footer>');
+    if (list.lengh < 2) noList();
+    else list.forEach((gift, index) => {
+      if (index == 0) {
+        document.getElementById('update').innerText = gift;
+      } else {
+        let card = [];
+        if (cards == 0) {
+          card.push('<div class="grid">');
+        }
+        card.push('<article class="card">');
+        // head
+        card.push('<header>'+gift.name+'</header>');
+        // body
+        if (gift.note) card.push('<p>'+gift.note+'</p>');
+        if (gift.picture) card.push('<img src="'+gift.picture+'" alt="Image de '+gift.name+'">');
+        // foot
+        if (gift.price || gift.link) {
+          card.push('<footer>');
+          if (gift.price) card.push('<kbd class="price">'+gift.price+'</kbd>')
+          else card.push('<span></span>');
+          if (gift.link) card.push('<a href="'+gift.link[0]+'" target="_blank" rel="noopener noreferrer">'+gift.link[1]+'</a>');
+          card.push('</footer>');
+        };
+        card.push('</article>');
+        cards += 1;
+        if (cards == col) {
+          card.push('</div>');
+          cards = 0;
+        };
+        total.push(card.join(''));
+      });
+      if (cards != 0 || cards != col) {
+        while (cards != col) {
+          total.push('<div></div>');
+          cards++;
+        };
       };
-      card.push('</article>');
-      cards += 1;
-      if (cards == col) {
-        card.push('</div>');
-        cards = 0;
-      };
-      total.push(card.join(''));
-    });
-    if (cards != 0 || cards != col) {
-      while (cards != col) {
-        total.push('<div></div>');
-        cards++;
-      };
+      div.setAttribute("aria-busy","false");
+      div.innerHTML += total.join('');
     };
-    div.setAttribute("aria-busy","false");
-    div.innerHTML += total.join('');
   };
 };
 
