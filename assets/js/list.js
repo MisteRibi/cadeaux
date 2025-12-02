@@ -18,7 +18,7 @@ function createList(list) {
   let cards = 0;
   if (div) {
     let total = [];
-    if (list.lengh < 2) noList();
+    if (list.lenght < 2) noList();
     else list.forEach((gift, index) => {
       if (index == 0) {
         document.getElementById('update').innerText = gift;
