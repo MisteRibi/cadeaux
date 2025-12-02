@@ -1,12 +1,27 @@
 [
+  "2025-12-01",
   {
-    "name": "Bracelet milanais 46 mm or",
-    "price": "129",
-    "note": "Attention à la taille de poignée. (130-180mm ou 150-200mm)",
+    "name": "Monnaie de collection"
+  },
+  {
+    "name": "Balais à neige"
+  },
+  {
+    "name": "Chaussettes chaudes gd hommes 11 &13"
+  },
+  {
+    "name": "Gilets chaud pour extérieur"
+  },
+  {
+    "name": "Chef préservé",
+    "price": "139$USD",
     "link": [
-      "https://www.apple.com/xf/shop/product/MXMR3AM/A/bracelet-milanais-46-mm-or-m-g",
-      "Apple.ca"
+      "https://chefpreserve.com",
+      "Chefpreserve.com"
     ],
-    "picture": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MC7K4ref?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1724186588675"
+    "picture": "https://chefpreserve.com/cdn/shop/files/10xBags_1_10a7c9b9-be46-47b4-9b31-9d32cf3ae594.png?v=1743482365&width=1620"
+  },
+  {
+    "name": "Cadran lumineux pour le mur"
   }
 ]
