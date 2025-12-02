@@ -12,9 +12,6 @@ footer {
   justify-content: space-between;
   flex-direction: column-reverse;
 }
-.price::after {
-  content: '$';
-}
 
 @media print {
   @page {
