@@ -1,3 +1,12 @@
 [
-  
+  "2025-12-01",
+  {
+    "name": "Souscription à Ground News",
+    "price": "Commence à 12.99$CAD par année",
+    "link": [
+      "https://ground.news/gift",
+      "Ground.news"
+    ],
+    "picture": "https://play-lh.googleusercontent.com/61Y1REKFBgC1C6YxQwZA56516gR1zCw-HIaNyP_WV_MnR6Fuofzd8-uWBHzKxZP7mwM"
+  }
 ]
