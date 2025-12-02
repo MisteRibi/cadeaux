@@ -48,16 +48,16 @@ function createList(list) {
           cards = 0;
         };
         total.push(card.join(''));
-      });
-      if (cards != 0 || cards != col) {
-        while (cards != col) {
-          total.push('<div></div>');
-          cards++;
-        };
       };
-      div.setAttribute("aria-busy","false");
-      div.innerHTML += total.join('');
+    });
+    if (cards != 0 || cards != col) {
+      while (cards != col) {
+        total.push('<div></div>');
+        cards++;
+      };
     };
+    div.setAttribute("aria-busy","false");
+    div.innerHTML += total.join('');
   };
 };
 
