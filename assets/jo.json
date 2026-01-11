@@ -1,5 +1,5 @@
 [
-  "2025-11-15",
+  "2026-01-11",
   {
     "name": "Emilio the Turtle Crochet Kit",
     "price": "30$USD / 42$CAD",
@@ -37,15 +37,6 @@
     "picture": "https://www.lego.com/cdn/cs/set/assets/blt92fd5b9824f9941e/21355_boxprod_v39.png?format=webply&fit=bounds&quality=60&width=800&height=800&dpr=2"
   },
   {
-    "name": "Emily Wilde's Encyclopaedia of Faeries",
-    "price": "24.95$CAD",
-    "link": [
-      "https://www.indigo.ca/en-ca/emily-wildes-encyclopaedia-of-faeries/9780593500156.html",
-      "Indigo.ca"
-    ],
-    "picture": "https://dynamic.indigoimages.ca/v1/books/books/0593500156/1.jpg?width=810&maxHeight=810&quality=85"
-  },
-  {
     "name": "Iron & Embers: An epic fantasy romance",
     "price": "24.99$CAD",
     "link": [
@@ -71,23 +62,5 @@
       "Indigo.ca"
     ],
     "picture": "https://dynamic.indigoimages.ca/v1/books/books/1922903299/1.jpg?width=810&maxHeight=810&quality=85"
-  },
-  {
-    "name": "Problematic Summer Romance",
-    "price": "27.99$CAD",
-    "link": [
-      "https://www.indigo.ca/en-ca/problematic-summer-romance/9798217187430.html",
-      "Indigo.ca"
-    ],
-    "picture": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1745430233i/228691356.jpg"
-  },
-  {
-    "name": "Beach Read",
-    "price": "22.00$CAD",
-    "link": [
-      "https://www.indigo.ca/en-ca/beach-read/9781984806734.html",
-      "Indigo.ca"
-    ],
-    "picture": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1589881197i/52867387.jpg"
   }
 ]
